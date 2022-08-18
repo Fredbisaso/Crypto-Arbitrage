@@ -16,3 +16,8 @@ Before running the application first install the following dependencies.
   pip install jupyterlab
   pip install pandas
   pip install matplotlib
+
+# Sample Code 
+  ax = bitstamp_sliced.plot(figsize=(20, 10),color="red", title='Exchange Comparison')
+coinbase_sliced.plot(color="blue",ax=ax)
+ax.legend(["Bitstamp", "Coinbase"])
