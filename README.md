@@ -20,4 +20,7 @@ Before running the application first install the following dependencies.
 # Sample Code 
   ax = bitstamp_sliced.plot(figsize=(20, 10),color="red", title='Exchange Comparison')
 coinbase_sliced.plot(color="blue",ax=ax)
+# Sample plotted graphs 
+
 ax.legend(["Bitstamp", "Coinbase"])
+![image](https://user-images.githubusercontent.com/110577831/185345387-c3c9bce8-bd21-4715-8be5-292fcf7bb838.png)
